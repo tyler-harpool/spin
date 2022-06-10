@@ -5,6 +5,7 @@ use hippo::{Client, ConnectionInfo};
 use hippo_openapi::models::ChannelRevisionSelectionStrategy;
 use spin_loader::local::config::RawAppManifestAnyVersion;
 use spin_manifest::HttpTriggerConfiguration;
+
 use std::path::PathBuf;
 
 use crate::opts::*;
